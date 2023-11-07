@@ -1,4 +1,5 @@
 
+
 # Create main function that passes payroll function into variable and prints result.
 def main():
     wage = payroll()
@@ -14,16 +15,16 @@ def payroll():
     hours = float(hrs)
     rate = float(rte)
 
-# Multiply hours and rate to calculate regular pay.
-    regular_pay = hours * rate
 
-# Create Boolean expression to calculate and return total pay to user. 
+# Create Boolean expression to calculate total pay and return overtime and regulary pay to user.
     if hours > 40:
-        overtime = (regular_pay - 40) * (rate * 1.5)
-        overtime_pay = overtime + regular_pay
-        total_pay = overtime_pay * regular_pay
+        regular_pay = 40 * rate 
+        overtime_pay = (hours - 40) * (rate * 1.5)
+        total_pay = regular_pay + overtime_pay
+        return total_pay
     else:
-        total_pay = regular_pay
-    
+        return hours * rate
 
-    return total_pay
+# Call main function
+
+main()
