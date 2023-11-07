@@ -1,30 +1,29 @@
 
-
-# Create main function that passes payroll function into variable and prints result.
+# Create main function to ask user for input and return value.
 def main():
-    wage = payroll()
-    print(wage)
+    wages = payroll()
+    print(f"Total Pay:", wages)
 
-# Create a payroll function that takes user input for hours and returns total pay to user.
-
+# Create payroll function. Get user input. 
 def payroll():
-# Take user input for hours and rate
     hrs = input("Enter Hours:")
     rte = input("Enter Rate:")
-# Convert user input to float
+# Convert user input to float.
     hours = float(hrs)
     rate = float(rte)
 
-
-# Create Boolean expression to calculate total pay and return overtime and regulary pay to user.
+# Use boolean statement to return overtime pay and regular pay to user.
     if hours > 40:
-        regular_pay = 40 * rate 
-        overtime_pay = (hours - 40) * (rate * 1.5)
-        total_pay = regular_pay + overtime_pay
-        return total_pay
+        regular_pay = 40 * rate
+        overtime = (hours - 40) * (rate * 1.5)
+        total_pay = regular_pay + overtime
     else:
-        return hours * rate
+        total_pay = hours * rate
 
-# Call main function
+# return total pay.
+    return total_pay
+
+
+# call main function.
 
 main()
