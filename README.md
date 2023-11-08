@@ -6,4 +6,4 @@ Else user hourly input is less than 40. User input times user rate is multipled 
 **Demo here:** <br>
 https://replit.com/@webdevkeenan/payrollcalculator
 
-![Screenshot from 2023-11-07 18-59-28](https://github.com/webdevkeenan/payroll_calculator/assets/42125735/56b16533-18d1-4b15-9df3-3ad7e683f061)
+![Screenshot from 2023-11-07 20-03-56](https://github.com/webdevkeenan/payroll_calculator/assets/42125735/8d384698-b5f4-467a-9abe-4e34213db2e4)
