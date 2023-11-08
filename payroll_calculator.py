@@ -1,8 +1,7 @@
-
 # Create main function to ask user for input and return value.
 def main():
     wages = payroll()
-    print(f"Total Pay:", wages)
+    print(f"Total Pay:${wages}")
 
 # Create payroll function. Get user input. 
 def payroll():
