@@ -8,3 +8,6 @@ https://replit.com/@webdevkeenan/payrollcalculator
 
 
 ![Screenshot 2023-11-07 at 23-48-17 payroll_calculator](https://github.com/webdevkeenan/payroll_calculator/assets/42125735/fe1ae5b1-ed19-4355-91fc-f02cce47fd4e)
+
+
+![Screenshot from 2023-11-08 11-51-08](https://github.com/webdevkeenan/payroll_calculator/assets/42125735/3d8cf2de-ba0b-4b03-9a5c-5a01b5c626ed)
