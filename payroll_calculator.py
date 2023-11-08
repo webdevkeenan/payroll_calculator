@@ -5,8 +5,8 @@ def main():
 
 # Create payroll function. Get user input. 
 def payroll():
-    hrs = input("Enter Hours:")
-    rte = input("Enter Rate:")
+    hrs = input("Enter Hours Worked:")
+    rte = input("Enter Rate of Pay:")
 # Convert user input to float.
     hours = float(hrs)
     rate = float(rte)
