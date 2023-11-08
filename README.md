@@ -1,7 +1,7 @@
 # payroll_calculator
 A program that prompts the user for hours worked and a rate. The total pay is returned to the user. <br>
 If total hours worked are more than 40, than the hourly rate is multipled 1.5 times for every hour after hourly rate and added to regular pay. 
-Else user hourly input is less than 40. User input times user rate is multipled and returned to the user.
+Else user hourly input is less than 40. User input hours and rate is multipled and returned to the user.
 
 **Demo:** <br>
 https://replit.com/@webdevkeenan/payrollcalculator
