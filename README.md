@@ -6,4 +6,5 @@ Else hours worked is less than 40 then the hours and rate are multipled and retu
 **Demo:** <br>
 https://replit.com/@webdevkeenan/payrollcalculator
 
-![Screenshot 2023-11-07 at 20-08-29 payroll_calculator](https://github.com/webdevkeenan/payroll_calculator/assets/42125735/11b55698-786b-4e14-a433-04b0d14e6a91)
+
+![Screenshot 2023-11-07 at 23-36-58 payroll_calculator](https://github.com/webdevkeenan/payroll_calculator/assets/42125735/361e9609-e969-4f11-8934-6804fcd4d3d3)
